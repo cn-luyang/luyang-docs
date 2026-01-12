@@ -1,8 +1,43 @@
 export default [
   // { text: 'Home', link: '/' },
   {
-    text: '生活娱乐', items: [
-      { text: '影视娱乐', link: '/life/media/music' },
+    text: '💻 技术开发',
+    items: [
+      { text: '前端开发', link: '/dev/frontend/' },
+      { text: '后端开发', link: '/dev/backend/' },
+      { text: '移动开发', link: '/dev/mobile/' },
+      { text: '算法数据', link: '/dev/algorithms/' },
+      { text: '系统设计', link: '/dev/system-design/' }
     ]
-  }
+  },
+  {
+    text: '🔧 工具配置',
+    items: [
+      { text: '开发工具', link: '/tools/ide/' },
+      { text: '代码编辑', link: '/tools/editor/' },
+      { text: '终端工具', link: '/tools/terminal/' },
+      { text: '效率插件', link: '/tools/plugins/' },
+      { text: '开发环境', link: '/tools/environment/' },
+      { text: '部署运维', link: '/tools/deployment/' }
+    ]
+  },
+  {
+    text: '📚 知识笔记',
+    items: [
+      { text: '学习笔记', link: '/knowledge/notes/' },
+      { text: '读书笔记', link: '/knowledge/books/' },
+      { text: '技术文档', link: '/knowledge/docs/' },
+      { text: '问题解决', link: '/knowledge/solutions/' }
+    ]
+  },
+  {
+    text: '🎮 生活娱乐', items: [
+      { text: '影视娱乐', link: '/life/media/music' },
+      { text: '游戏世界', link: '/life/game/' },
+      { text: '旅行记录', link: '/life/travel/' },
+      { text: '生活感悟', link: '/life/thoughts/' },
+      { text: '摄影作品', link: '/life/photography/' }
+    ]
+  },
+  { text: '👤 关于', link: '/about/' }
 ]

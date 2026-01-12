@@ -3,23 +3,32 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "人民技术"
+  text: "解放思想，实事求是"
+  tagline: 技术为人民服务，在实践中检验和发展技术
+  image:
+    src: /logo-light.svg
+    alt: 背景图
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 开始学习
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 查看实践
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: "实事求是"
+    details: 一切从实际出发，理论联系实际，在实践中检验和发展真理
+    icon: 🔍
+  - title: "群众路线"
+    details: 从群众中来，到群众中去，技术发展要服务于人民群众的需要
+    icon: 👥
+  - title: "独立自主"
+    details: 坚持自力更生为主，争取外援为辅，掌握核心技术自主权
+    icon: 🏛️
+  - title: "艰苦奋斗"
+    details: 保持谦虚谨慎、不骄不躁的作风，保持艰苦奋斗的作风
+    icon: 💪
 ---
 

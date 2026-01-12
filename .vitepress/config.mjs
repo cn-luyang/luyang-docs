@@ -3,29 +3,41 @@ import nav from './nav.mjs'
 import sidebar from './sidebar.mjs'
 
 export default defineConfig({
-  title: "My Awesome Project",
+  title: "Kicent",
   description: "A VitePress Site",
   srcDir: "src",
+  head: [["link", { rel: "icon", href: "/logo.svg" }]],
   themeConfig: {
+    // 网站Logo
+    logo: {
+      light: '/logo-light.svg',    // 亮色主题使用的logo
+      dark: '/logo-dark.svg',      // 暗色主题使用的logo
+      alt: 'Logo',                 // alt文本
+
+    },
+    // 设置默认主题为暗黑模式
+    appearance: 'dark',  // 可选值: 'dark' | 'light' | false
     // 导航栏配置
     nav: nav,
     // 侧边栏配置
     sidebar: sidebar,
     // 右侧大纲配置
-    outlineTitle: "页面导航",
-    outline: [2, 6],
+    outline: {
+      level: [2, 6],  // 显示 h2 到 h6 标题
+      label: '页面导航' // 大纲标题
+    },
     // 社交链接
     socialLinks: [
       { icon: 'github', link: 'https://github.com/cn-luyang' }
     ],
     // 页脚配置
     footer: {
-      //  message: '基于 VitePress 构建',
-      copyright: 'Copyright © 2025-2026 码上钓台. All rights reserved'
+      // message: '简单 · 专注',
+      copyright: 'Copyright © 2025-2026 · 湘ICP备2025102812号'
     },
     // 编辑链接 - 显示"编辑此页"按钮
     editLink: {
-      pattern: 'https://github.com/cn-luyang/luyang-docs/main/docs/:path',  // 编辑链接模板
+      pattern: 'https://github.com/cn-luyang/luyang-docs/tree/main/src/:path',  // 编辑链接模板
       text: '在 GitHub 上编辑此页'  // 按钮文字
     },
     // 上一页/下一页链接
@@ -37,8 +49,11 @@ export default defineConfig({
     lastUpdated: {
       text: '最后更新于',              // 更新时间文字
       formatOptions: {
-        dateStyle: 'short',
-        timeStyle: 'short'
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
       }
     },
     // 返回顶部按钮
@@ -63,5 +78,9 @@ export default defineConfig({
         },
       },
     }
+  },
+  vite: {
+    // 静态资源处理
+    publicDir: '../public'  // 相对于src目录的路径
   }
 })

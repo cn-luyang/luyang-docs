@@ -32,6 +32,54 @@ title: 音乐推荐
 ```java
 
 public static void mian() {
+
+}
+
+
+```
+```java
+
+public static void mian() {
+    
+}
+
+
+```
+```java
+
+public static void mian() {
+    
+}
+
+
+```
+```java
+
+public static void mian() {
+    
+}
+
+
+```
+```java
+
+public static void mian() {
+    
+}
+
+
+```
+```java
+
+public static void mian() {
+    
+}
+
+
+```
+```java
+
+public static void mian() {
     
 }
 
