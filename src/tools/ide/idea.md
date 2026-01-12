@@ -7,7 +7,6 @@
 ## 一、界面与字体设置
 
 ### 设置左侧字体（Project / Structure 侧边栏）
-![IDEA 字体设置](image.png)
 
 ---
 
