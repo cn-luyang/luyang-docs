@@ -13,7 +13,7 @@ export default [
   {
     text: '🔧 工具配置',
     items: [
-      { text: '开发工具', link: '/tools/ide/' },
+      { text: '开发工具', link: '/tools/ide/IntelliJ IDEA' },
       { text: '代码编辑', link: '/tools/editor/' },
       { text: '终端工具', link: '/tools/terminal/' },
       { text: '效率插件', link: '/tools/plugins/' },
