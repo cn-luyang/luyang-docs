@@ -4,7 +4,7 @@ export default {
       text: "开发工具",
       collapsible: true,
       items: [
-        { text: "IntelliJ IDEA", link: "/tools/ide/IntelliJ IDEA" }
+        { text: "IntelliJ IDEA", link: "/tools/ide/idea" }
       ]
     }
   ],
