@@ -6,7 +6,7 @@ export default defineConfig({
   title: "Kicent",
   description: "A VitePress Site",
   srcDir: "src",
-  head: [["link", { rel: "icon", href: "/logo.svg" }]],
+  head: [["link", { rel: "icon", href: "/logo-light.svg" }]],
   themeConfig: {
     // 网站Logo
     logo: {
