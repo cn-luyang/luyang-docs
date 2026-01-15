@@ -40,7 +40,7 @@
 | `${ORGANIZATION_NAME}` | 组织/公司名 | `MyCompany` |
 | `${DESCRIPTION}` | 描述(需手动输入) | `用户服务类` |
 
-## 4. 方法注释
+## 5. 方法注释
 ![- 方法释模版*: ✅ (可选)](http://qiniu.kicent.cn/idea/方法注释-29670bea08c844830d686de3510747b9.png)
 
 
