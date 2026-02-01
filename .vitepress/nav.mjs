@@ -31,13 +31,7 @@ export default [
     ]
   },
   {
-    text: '🎮 生活娱乐', items: [
-      { text: '影视娱乐', link: '/life/media/music' },
-      { text: '游戏世界', link: '/life/game/' },
-      { text: '旅行记录', link: '/life/travel/' },
-      { text: '生活感悟', link: '/life/thoughts/' },
-      { text: '摄影作品', link: '/life/photography/' }
-    ]
+    text: '🎮 生活娱乐', link: '/life/home-theater'
   },
   { text: '👤 关于', link: '/about/' }
 ]

@@ -8,12 +8,13 @@ export default {
       ]
     }
   ],
-  "/life/media/": [
+  "/life/": [
     {
-      text: "影视娱乐",
+      text: "生活娱乐",
       collapsible: true,
       items: [
-        { text: "音乐", link: "/life/media/music" }
+        { text: "搭建家庭影院", link: "/life/home-theater" },
+        { text: "音乐", link: "/life/music" }
       ]
     }
   ]
